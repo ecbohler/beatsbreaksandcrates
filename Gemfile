@@ -24,7 +24,7 @@ gem 'sprockets-rails'
 
 gem 'stroke-seven-rails'
 
-gem 'webpacker', '~> 3.0'
+# gem 'webpacker', '~> 3.0'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'workshop/index'
+
   get 'shop/index'
 
   root 'welcome#index'

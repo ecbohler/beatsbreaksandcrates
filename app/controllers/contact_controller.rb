@@ -1,5 +1,9 @@
-class WelcomeController < ApplicationController
-  def contact
+class ContactController < ApplicationController
+  def new
+    @contact = Contact.new
+  end
+
+  def create
     @contact = Contact.new(params[:contact])
     @contact.request = request
     if @contact.deliver
@@ -12,9 +16,4 @@ class WelcomeController < ApplicationController
     @contact.save
     redirect_to root_path
   end
-
-  def index
-    @contact = Contact.new
-  end
 end
-

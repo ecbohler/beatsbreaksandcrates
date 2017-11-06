@@ -622,7 +622,7 @@
       <!-- END: Blog -->
 
       <!-- START: Contact Info -->
-      <div class="container" id="contact">
+      <div class="container bg-gray-1" id="contact">
         <div class="nk-gap-5"></div>
         <div class="nk-gap-5"></div>
 
@@ -646,35 +646,20 @@
                 </div>
                 <div class="col-lg-7">
                   <!-- START: Form -->
-                  <form action="#" class="nk-form nk-form-ajax">
-                    <div class="row vertical-gap">
-                      <div class="col-md-6">
-                        <input type="text" class="form-control required" name="name" placeholder="Your Name">
-                      </div>
-                      <div class="col-md-6">
-                        <input type="email" class="form-control required" name="email" placeholder="Your Email">
-                      </div>
-                    </div>
-
-                    <div class="nk-gap-1"></div>
-                    <input type="text" class="form-control required" name="title" placeholder="Your Title">
-
-                    <div class="nk-gap-1"></div>
-                    <textarea class="form-control required" name="message" rows="8" placeholder="Your Comment" aria-required="true"></textarea>
-                    <div class="nk-gap-1"></div>
-                    <div class="nk-form-response-success"></div>
-                    <div class="nk-form-response-error"></div>
-                    <button class="nk-btn">Send Message</button>
+                  <form action="http://formspree.io/yourgo2dj@gmail.com" method="post">
+                    <input type="text" name="name" placeholder="Name"><br><br>
+                    <input type="text" name="title" placeholder="Subject"><br><br>
+                    <input type="email" name="email" placeholder="Email Address"><br><br>
+                    <textarea name="message" placeholder="Message"></textarea><br><br>
+                    <button type="submit">Send</button>
                   </form>
+
                   <!-- END: Form -->
                 </div>
               </div>
               <div class="nk-gap-5"></div>
             </div>
             <!-- END: Contact Info -->
-
-
-
 
         <!--
     START: Footer

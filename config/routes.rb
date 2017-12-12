@@ -5,6 +5,10 @@ Rails.application.routes.draw do
 
   get 'shop/index'
 
+  get 'blog/index'
+
+  get 'blog/blog1'
+
   resources 'contacts', only: [:new, :create], path_names: { new: '' }
 if Rails.env.development?
   mount LetterOpenerWeb::Engine, at: "/letter_opener"
